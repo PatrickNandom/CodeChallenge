@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    background-color: rgb(216, 215, 215);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    margin-top: 15px;
+}
+
+.input__field {
+    width: 110px;
+    height: 30px;
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+}
+
+.image__class {
+    width: 5%;
+    /* You can use any percentage or pixel value */
+    height: auto;
+    /* This maintains the aspect ratio */
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+.input__button {
+    background-color: none;
+    border: none;
+}
+
+.side__bars {
+    display: flex;
+    gap: 50px;
+}
+
+.side__bar {
+    width: 500px;
+    height: 445px;
+    background-color: white;
+    margin: 50px 0px 0px 100px;
+    border-radius: 5px;
+    float: left;
+
+}
+
+.deposit,
+.withdrawal {
+    display: flex;
+    height: 55px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(237, 227, 227);
+
+}
+
+.deposit__span {
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    padding: 2px 10px 2px 10px;
+    text-align: center;
+}
+
+.withdrawal__span {
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    padding: 2px 10px 2px 10px;
+    text-align: center;
+}
+
+.transfer__money,
+.request__loan,
+.close__account {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+    height: 130px;
+    border-radius: 7px;
+    margin: 20px;
+}
+
+/* h2 {
+    display: block;
+} */
+
+
+.transfer__money {
+    background-color: rgb(206, 160, 31);
+}
+
+.request__loan {
+    background-color: rgb(135, 206, 135);
+}
+
+.close__account {
+    background-color: rgb(197, 67, 67);
+}
+
+.side__bar__2 {
+    float: left;
+    margin-top: 36px;
+}
+
+.account__input {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.account__button {
+    width: 50px;
+    height: 30px;
+}
+
+/* input{
+    background-color: aqua;
+} */
+input::placeholder {
+    color: #fff;
+}
+
+.input__field::placeholder {
+    color: grey;
+}
