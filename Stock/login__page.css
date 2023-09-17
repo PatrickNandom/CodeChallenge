@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.title {
+    color: #0056b3;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 400px;
+    background-color: #0056b3;
+    border-radius: 10px;
+}
+
+.container .title__message {
+    margin-bottom: 70px;
+    color: #f5f5f5;
+}
+
+.input__email,
+.input__password {
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    background-color: transparent;
+    color: #f5f5f5;
+}
+
+input::placeholder {
+    font-size: large;
+    color: #fff;
+}
+
+span {
+    color: #f5f5f5;
+}
+
+.input__button {
+    width: 200px;
+    height: 30px;
+    font-size: large;
+    color: #0056b3;
+    background: #f5f5f5;
+    cursor: pointer;
+}
