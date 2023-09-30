@@ -1,20 +1,27 @@
  /* Define your custom blue color */
- .custom-blue {
+ body {
+     font-family: 'Times New Roman', Times, serif;
+     font-size: large;
+ }
+
+ .mission__section {
      color: #0073e6;
      /* Replace with your chosen blue color */
  }
 
  /* Styling for the page container */
- .about-container {
+ .about__container {
      max-width: 800px;
      margin: 0 auto;
      padding: 20px;
      font-family: Arial, sans-serif;
  }
 
+
+
  /* Styling for headings */
- h1 {
-     color: #333;
+ .page__heading {
+     color: #0073e6;
      /* Default heading color */
  }
 
@@ -24,23 +31,27 @@
  }
 
  /* Styling for team section */
- .team-section {
+ .team__section,
+ .section__details {
      background-color: #f5f5f5;
-     /* Light gray background color */
      padding: 20px;
      border-radius: 5px;
+     margin: 10px;
+ }
+
+ .section__details h3 {
+     color: #0073e6;
  }
 
  /* Styling for contact section */
- .contact-section {
+ .contact__section {
      background-color: #f9f9f9;
-     /* Slightly lighter gray background color */
      padding: 20px;
      border-radius: 5px;
  }
 
  /* Styling for social media links */
- .social-media {
+ .social__media {
      margin-top: 10px;
  }
 
